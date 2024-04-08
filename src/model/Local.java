@@ -1,15 +1,16 @@
 package model;
 
+import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.LocalTime;
 
 public class Local {
     private String estadio;
-    private LocalDate dia;
+    private DayOfWeek dia;
     private LocalDate data;
     private LocalTime hora;
 
-    public Local(String estadio, LocalDate dia, LocalDate data, LocalTime hora) {
+    public Local(String estadio, DayOfWeek dia, LocalDate data, LocalTime hora) {
         this.estadio = estadio;
         this.dia = dia;
         this.data = data;
@@ -26,11 +27,11 @@ public class Local {
         this.estadio = estadio;
     }
 
-    public LocalDate getDia() {
+    public DayOfWeek getDia() {
         return dia;
     }
 
-    public void setDia(LocalDate dia) {
+    public void setDia(DayOfWeek dia) {
         this.dia = dia;
     }
 

@@ -6,6 +6,7 @@ import model.Numeros;
 import model.Times;
 import view.View;
 
+import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.ArrayList;
@@ -34,9 +35,9 @@ public class Main {
         View<Object> view = new View<>(localController, numerosController, timesController);
 
 
-        view.inserirLocal(new Local("Santiago Bernabeu", LocalDate.of(2021, 11, 21), LocalDate.of(2018, 11, 10), LocalTime.of(15, 30)));
-        view.inserirNumeros(new Numeros(1, 1, 2));
-        view.inserirTime(new Times("Boca Juniors"));
+        view.inserirLocal(new Local("Nacional de Lima", DayOfWeek.of(6), LocalDate.of(2019, 11, 23), LocalTime.of(15, 30)));
+        view.inserirNumeros(new Numeros(2, 1, 1));
+        view.inserirTime(new Times("Flamengo"));
 
 
         view.exibirLocais();

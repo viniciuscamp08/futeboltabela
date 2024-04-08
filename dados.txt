@@ -1,12 +1,14 @@
-Local{estadio='Centenário', dia=2021-11-21, data=2024-04-10, hora=15:30}
-Numeros{placar=1, rodada=1, jogo=1}
-Times{nome='Athlético Paranaense'}
-Local{estadio='Centenário', dia=2021-11-21, data=2024-04-10, hora=15:30}
-Numeros{placar=0, rodada=1, jogo=1}
-Times{nome='Redbull Bregantino'}
-Local{estadio='Santiago Bernabeu', dia=2021-11-21, data=2018-11-10, hora=15:30}
-Numeros{placar=3, rodada=1, jogo=2}
+
+Times{nome='Flamengo'}
+Local{estadio='Nacional de Lima', dia=SATURDAY, data=2019-11-23, hora=15:30}
+Numeros{placar=2, rodada=1, jogo=1}
 Times{nome='River Plate'}
-Local{estadio='Santiago Bernabeu', dia=2021-11-21, data=2018-11-10, hora=15:30}
-Numeros{placar=1, rodada=1, jogo=2}
-Times{nome='Boca Juniors'}
+Local{estadio='Nacional de Lima', dia=SATURDAY, data=2019-11-23, hora=15:30}
+Numeros{placar=1, rodada=1, jogo=1}
+Times{nome='River Plate'}
+Numeros{placar=1, rodada=1, jogo=1}
+Local{estadio='Nacional de Lima', dia=SATURDAY, data=2019-11-23, hora=15:30}
+Local{estadio='Nacional de Lima', dia=SATURDAY, data=2019-11-23, hora=15:30}
+Times{nome='Flamengo'}
+Numeros{placar=2, rodada=1, jogo=1}
+Local{estadio='Nacional de Lima', dia=SATURDAY, data=2019-11-23, hora=15:30}
